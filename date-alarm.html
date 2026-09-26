@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Future Alarm — Privacy Policy</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <a class="back" href="index.html">All privacy policies</a>
+      <h1>Future Alarm — Privacy Policy</h1>
+      <p class="updated"><strong>Last updated:</strong> 26 September 2026</p>
+      <p class="meta">Package: app.futurealarm.datetime</p>
+      <p>
+        Future Alarm sets alarms for a date and time you choose. Alarm schedules stay on your
+        phone. The app has no account and no developer-operated backend. We do not sell personal data.
+      </p>
+      <h2>What stays on your device</h2>
+      <ul>
+        <li>Alarms you create, including label, date, time, repeat schedule, and enabled state.</li>
+        <li>A custom sound you pick through the system file picker, as a local permission to that file.</li>
+        <li>App settings needed to ring, vibrate, and show the alarm screen.</li>
+      </ul>
+      <h2>Voice commands</h2>
+      <p>
+        Microphone access is used only when you tap the microphone to speak an alarm command.
+        On phones that support it, speech is recognized on the device. Otherwise Android’s speech
+        recognizer may send audio to the recognition service configured on the phone. That service
+        is controlled by your device settings, not by a Sushila Creatives server.
+      </p>
+      <p>
+        If a spoken command is not handled on the device, the recognized text — not the audio —
+        is sent to Google Gemini through Firebase AI so the app can turn it into an alarm action.
+        The prompt includes the current time and time zone needed to interpret relative phrases
+        such as “tomorrow at 7 AM.” If that request fails, the app tries a local parser instead.
+        You can create and edit alarms without using voice.
+      </p>
+      <h2>Permissions</h2>
+      <ul>
+        <li><strong>Exact alarm, notifications, full-screen intent, wake lock, and vibration</strong> — ring an alarm at the time you set, including after restart.</li>
+        <li><strong>Boot completed</strong> — restore scheduled alarms after the device restarts.</li>
+        <li><strong>Foreground service</strong> — keep an alarm ringing until you dismiss it.</li>
+        <li><strong>Microphone</strong> — only while you use a voice command.</li>
+        <li><strong>Internet</strong> — speech recognition when the phone cannot do it on device, and Gemini interpretation of the recognized text.</li>
+      </ul>
+      <h2>Advertising</h2>
+      <p>This release does not show ads and does not include an advertising SDK.</p>
+      <h2>Children</h2>
+      <p>Future Alarm does not knowingly collect personal information from children.</p>
+      <h2>Changes</h2>
+      <p>This page will be updated if these data practices change.</p>
+      <h2>Contact</h2>
+      <p>SUSHILA CREATIVES · <a href="mailto:support@sushilacreatives.com">support@sushilacreatives.com</a></p>
+    </main>
+  </body>
+</html>
