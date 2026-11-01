@@ -1,0 +1,28 @@
+name: refresh app list
+
+on:
+  push:
+    paths:
+      - "*.html"
+      - "tools/build-app-list.mjs"
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  list:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - run: node tools/build-app-list.mjs
+      - name: Commit generated list
+        run: |
+          git add apps.js index.html
+          git diff --cached --quiet && exit 0
+          git -c user.name="github-actions[bot]" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" commit -m "chore: refresh app list from privacy policies"
+          git push
