@@ -4,6 +4,7 @@ if (-not (Test-Path (Join-Path $root "index.html"))) { $root = $PSScriptRoot }
 $site = "https://monk-saint.github.io/pp"
 $studio = "https://sushilacreatives.in/"
 $catalog = [ordered]@{
+  "block-fit-puzzle.html" = @("Block Fit Puzzle", "com.blockfit.puzzlegame", "android")
   "breath-cue.html" = @("Breathing Guide: Calm & Focus", "com.breathguide.calmfocusapp", "android")
   "call-guard.html" = @("Blacklist Calls - Custom Block", "com.blacklistcalls.customblock", "android")
   "claimready.html" = @("ClaimReady: Returns & Warranty", "app.redbanana.claimready", "android")

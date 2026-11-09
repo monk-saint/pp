@@ -7,6 +7,7 @@ const site = "https://monk-saint.github.io/pp";
 const studio = "https://sushilacreatives.in/";
 
 const catalog = {
+  "block-fit-puzzle.html": ["Block Fit Puzzle", "com.blockfit.puzzlegame", "android"],
   "breath-cue.html": ["Breathing Guide: Calm & Focus", "com.breathguide.calmfocusapp", "android"],
   "call-guard.html": ["Blacklist Calls - Custom Block", "com.blacklistcalls.customblock", "android"],
   "claimready.html": ["ClaimReady: Returns & Warranty", "app.redbanana.claimready", "android"],

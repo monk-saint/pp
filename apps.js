@@ -8,6 +8,14 @@ window.SUSHILA_APPS = [
     "file": "call-guard.html"
   },
   {
+    "name": "Block Fit Puzzle",
+    "kind": "android",
+    "package": "com.blockfit.puzzlegame",
+    "store": "https://play.google.com/store/apps/details?id=com.blockfit.puzzlegame",
+    "policy": "https://monk-saint.github.io/pp/block-fit-puzzle.html",
+    "file": "block-fit-puzzle.html"
+  },
+  {
     "name": "Breathing Guide: Calm & Focus",
     "kind": "android",
     "package": "com.breathguide.calmfocusapp",
