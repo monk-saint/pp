@@ -16,14 +16,6 @@ window.SUSHILA_APPS = [
     "file": "block-fit-puzzle.html"
   },
   {
-    "name": "Hexland – Build & Trade",
-    "kind": "android",
-    "package": "org.playcatanou.twa",
-    "store": "https://play.google.com/store/apps/details?id=org.playcatanou.twa",
-    "policy": "https://monk-saint.github.io/pp/hexland-build-trade.html",
-    "file": "hexland-build-trade.html"
-  },
-  {
     "name": "Breathing Guide: Calm & Focus",
     "kind": "android",
     "package": "com.breathguide.calmfocusapp",
@@ -78,6 +70,14 @@ window.SUSHILA_APPS = [
     "store": "https://play.google.com/store/apps/details?id=com.gps.location.alarm",
     "policy": "https://monk-saint.github.io/pp/location-alarm.html",
     "file": "location-alarm.html"
+  },
+  {
+    "name": "Hexland – Build & Trade",
+    "kind": "android",
+    "package": "org.playcatanou.twa",
+    "store": "https://play.google.com/store/apps/details?id=org.playcatanou.twa",
+    "policy": "https://monk-saint.github.io/pp/hexland-build-trade.html",
+    "file": "hexland-build-trade.html"
   },
   {
     "name": "Image Resizer & Compressor",
