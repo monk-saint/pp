@@ -5,6 +5,7 @@ $site = "https://monk-saint.github.io/pp"
 $studio = "https://sushilacreatives.in/"
 $catalog = [ordered]@{
   "block-fit-puzzle.html" = @("Block Fit Puzzle", "com.blockfit.puzzlegame", "android")
+  "hexland-build-trade.html" = @("Hexland – Build & Trade", "org.playcatanou.twa", "android")
   "breath-cue.html" = @("Breathing Guide: Calm & Focus", "com.breathguide.calmfocusapp", "android")
   "call-guard.html" = @("Blacklist Calls - Custom Block", "com.blacklistcalls.customblock", "android")
   "claimready.html" = @("ClaimReady: Returns & Warranty", "app.redbanana.claimready", "android")
